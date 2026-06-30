@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import gdown # Esta librería descarga archivos de Drive
-
+import os 
 # Enlace de tu archivo en Drive (el que copiaste)
 url_modelo = 'https://drive.google.com/file/d/19xoL1Tr5KgDT566paLuimCwHCzWY-JbO/view?usp=drivesdk'
 output = 'modelo_futbol.pkl'
